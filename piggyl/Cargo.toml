@@ -5,6 +5,9 @@ edition = "2021"
 description = "Core library for the Pig trait — assign each struct its own pig of the day"
 license = "MIT"
 repository = "https://github.com/LLLichlet/Pig.git"
+documentation = "docs.rs"
+readme = "README.txt"
+keywords = ["pig"]
 
 [dependencies]
 piggy_derive = { version = "0.1.0", path = "../piggy_derive" }
