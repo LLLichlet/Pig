@@ -2,6 +2,9 @@
 name = "piggy_derive"
 version = "0.1.0"
 edition = "2021"
+description = "Proc-macro crate for deriving the Pig trait — re-exported from piggy"
+license = "MIT"
+repository = "https://github.com/LLLichlet/Pig.git"
 
 [lib]
 proc-macro = true
