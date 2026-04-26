@@ -6,7 +6,7 @@ version = 4
 name = "pig"
 version = "0.1.0"
 dependencies = [
- "piggyl",
+ "piggyl 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
 [[package]]
@@ -18,10 +18,29 @@ dependencies = [
 ]
 
 [[package]]
+name = "piggy_derive"
+version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "e052339ca245a90f587e4bacd83cfc8787ed24b68e32a3942b4f5b70d2d42f28"
+dependencies = [
+ "quote",
+ "syn",
+]
+
+[[package]]
 name = "piggyl"
 version = "0.1.0"
 dependencies = [
- "piggy_derive",
+ "piggy_derive 0.1.0",
+]
+
+[[package]]
+name = "piggyl"
+version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "19a9eddd30f77aebe83a6ac8e0adb15f7b4eafee5e87c6db0c12d3929053350b"
+dependencies = [
+ "piggy_derive 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
 [[package]]

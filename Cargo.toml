@@ -10,7 +10,7 @@ readme = "README.txt"
 keywords = ["pig"]
 
 [dependencies]
-piggyl = { version = "0.1.0", path = "piggyl" }
+piggyl = "0.1.0"
 
 [workspace]
 resolver = "2"
