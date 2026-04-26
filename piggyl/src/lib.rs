@@ -5,7 +5,7 @@ use std::time::{SystemTime, UNIX_EPOCH};
 /// The pig is picked deterministically — same struct name on the same day gets the same pig.
 ///
 /// ```
-/// use piggy::Pig;
+/// use piggyl::Pig;
 ///
 /// #[derive(Pig)]
 /// struct Dog;
