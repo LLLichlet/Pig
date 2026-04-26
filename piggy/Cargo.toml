@@ -1,0 +1,9 @@
+[package]
+name = "piggy"
+version = "0.1.0"
+edition = "2021"
+description = "Core library for the Pig trait — assign each struct its own pig of the day"
+license = "MIT"
+
+[dependencies]
+piggy_derive = { path = "../piggy_derive" }

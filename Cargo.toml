@@ -1,0 +1,13 @@
+[package]
+name = "pig"
+version = "0.1.0"
+edition = "2021"
+description = "A fun Rust crate that assigns each struct its own pig of the day"
+license = "MIT"
+
+[dependencies]
+piggy = { path = "./piggy" }
+
+[workspace]
+resolver = "2"
+members = ["piggy", "piggy_derive"]
