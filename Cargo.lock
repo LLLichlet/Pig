@@ -6,14 +6,7 @@ version = 4
 name = "pig"
 version = "0.1.0"
 dependencies = [
- "piggy",
-]
-
-[[package]]
-name = "piggy"
-version = "0.1.0"
-dependencies = [
- "piggy_derive",
+ "piggyl",
 ]
 
 [[package]]
@@ -22,6 +15,13 @@ version = "0.1.0"
 dependencies = [
  "quote",
  "syn",
+]
+
+[[package]]
+name = "piggyl"
+version = "0.1.0"
+dependencies = [
+ "piggy_derive",
 ]
 
 [[package]]

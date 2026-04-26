@@ -10,8 +10,8 @@ readme = "README.txt"
 keywords = ["pig"]
 
 [dependencies]
-piggy = { version = "0.1.0", path = "piggy" }
+piggyl = { version = "0.1.0", path = "piggyl" }
 
 [workspace]
 resolver = "2"
-members = ["piggy", "piggy_derive"]
+members = ["piggyl", "piggy_derive"]

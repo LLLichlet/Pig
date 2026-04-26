@@ -1,4 +1,4 @@
-use piggy::Pig;
+use piggyl::Pig;
 
 #[derive(Pig)]
 struct Dog;
