@@ -5,9 +5,6 @@ edition = "2021"
 description = "A fun Rust crate that assigns each struct its own pig of the day"
 license = "MIT"
 repository = "https://github.com/LLLichlet/Pig.git"
-documentation = "docs.rs"
-readme = "README.txt"
-keywords = ["pig"]
 
 [dependencies]
 piggyl = { version = "0.1.0", path = "piggyl" }
